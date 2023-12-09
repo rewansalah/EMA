@@ -58,7 +58,7 @@
 
 .hero-content button{
     display: inline-block;
-    background-color: rgb(14, 14, 50);
+    background-color: #040d2d;
     color: #fff;
     padding: 10PX 10PX;
     border-radius: 5px;
@@ -93,7 +93,7 @@ img{
 
 
 :root{
-    --primery-color: rgb(14, 14, 50);
+    --primery-color: #040d2d;
     --secondary-color: gray ;
 
 }
@@ -283,7 +283,7 @@ nav .fas{
     justify-content: flex-start;
     flex-direction: column;
     padding: 0 8%;
-    background: rgb(14, 14, 50);
+    background: #040d2d;
     position: relative;
     border-radius: 10px;
     margin:0 10px ;
@@ -353,7 +353,7 @@ nav .fas{
 
 
 .footer{
-    background-color: rgb(14, 14, 50);
+    background-color: #040d2d;
     padding: 70px 0;
 
 }
