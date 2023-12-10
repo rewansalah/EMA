@@ -1194,49 +1194,6 @@ span.text-container{
 
 }
 
-/* 
-.team-wrapper{
-    background: #ffffff4b;
-    width: 790px;
-    border-radius: 15px;
-    padding: 60px;
-    box-shadow: 10px 10px 15px rgba(0,0,0,0.4);
-
-
-}
-
-
-.team-header{
-    text-align: center;
-}
-
-.team-line{
-    width: 100px;
-    margin: 10px auto;
-}
-
-
-.team-members{
-    display: flex;
-}
-
-.team-member{
-    margin: 8px;
-}
-
-.team-img{
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    margin: 10px;
-}
-
-.team-member p{
-    text-align: center;
-    font-size: 12px;
-    margin: 10px;
-} */
-
 .teamm-container{
     font-family: "Roboto" , sans-serif;
      padding: 24px 0; 
@@ -1286,6 +1243,7 @@ span.text-container{
     font-weight: bold;
     font-size: 22px;
     margin: 12px 0;
+    color: #ffffff;
 }
 
 .teamm-container .Manager .team-member-name {
@@ -1306,6 +1264,11 @@ span.text-container{
     padding: 24px; 
     text-transform: uppercase;
     font-weight: normal;
+    color: #ffffff;
+}
+
+.meta {
+    color: #ffffff9e;
 }
 
 
@@ -1332,6 +1295,70 @@ span.text-container{
     min-height: 100vh;
      background-size: cover; 
      background-position: center;
+
+}
+
+
+/* Twitter page */
+
+.Twitter-body{
+    
+    background-image: linear-gradient(rgba(9,0,77,0.65),rgb(9,0,77,0.65)),
+    url(images/BG007.jpg);
+    width: 100%;
+    min-height: 100vh;
+     background-size: cover; 
+     background-position: center;
+
+}
+
+
+/* Snapchat page */
+
+.SC-body{
+    background-image: linear-gradient(rgba(9,0,77,0.65),rgb(9,0,77,0.65)),
+    url(images/BG007.jpg);
+    width: 100%;
+    min-height: 100vh;
+     background-size: cover; 
+     background-position: center;
+
+
+}
+
+/* Web & apps */
+
+.WebApps-body{
+
+    background-image: linear-gradient(rgba(9,0,77,0.65),rgb(9,0,77,0.65)),
+    url(images/BG007.jpg);
+    width: 100%;
+    min-height: 100vh;
+     background-size: cover; 
+     background-position: center;
+
+
+}
+
+.webapp-div{
+    font-size: 20px;
+    padding-top: 60px;
+    padding-bottom: 35px;
+    color: #d4eddaad ;
+    opacity: 3;
+}
+
+.webApss{
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+.head-webapps{
+    padding-top: 20px;
+   padding-left: 10px;
+   color: #ffffff;
+   text-decoration: solid bold;
+   box-shadow: #000;
 
 }
 
