@@ -567,8 +567,8 @@ nav .fas{
 /* 1-facebook  facebook.html*/
 
 .facebook-body{
-    background-image: linear-gradient(rgba(0, 0, 55, 0.70), rgba(0, 0, 55, 0.70)),
-    url(images/BG007.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.377),rgb(0, 0, 0, 0.377)),
+    url(images/BG007.jpg); 
     width: 100%;
     min-height: 100vh;
      background-size: cover; 
@@ -769,6 +769,7 @@ body [lang="ar"]{
     background-color:hsla(0, 0%, 100%, 0.363) ;
     padding: 30px;
     border-radius: 30px;
+   
 }
 
 .testimonials-item .info{
@@ -784,7 +785,7 @@ body [lang="ar"]{
 }
 
 .testimonials-item .name{
-    font-size: 24px;
+    font-size: 30px;
     text-transform: capitalize;
     font-weight: 600;
     color: hsl(0, 0%, 0%);
@@ -798,8 +799,8 @@ body [lang="ar"]{
 }
 
 .testimonials-item p{
-    margin-top: 20px;
-    color: hsl(0, 4%, 5%);
+    margin-top: 30px;
+    color: hsl(0, 0%, 0%);
     font-size: larger;
 }
 
