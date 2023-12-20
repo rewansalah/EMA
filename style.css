@@ -523,9 +523,9 @@ nav .fas{
  /* footer responsive */
 
 
-/* @media(max-width:700px){
+ @media(max-width:700px){
     .footer-col{
-        width:100% ;
+        width:50% ;
         margin-bottom: 30px;
     }
 }
@@ -536,7 +536,7 @@ nav .fas{
         width:100% ;
         margin-bottom: 30px;
     }
-} */
+} 
 
 
 
