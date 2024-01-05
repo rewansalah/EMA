@@ -134,14 +134,15 @@ img{
 
 }
 nav{
-    /* height: 88px; */
+    
     width: 100%;
     display: flex;
     align-items:center;
     justify-content: space-between;
      padding: 10px 0;  
-    /* padding: 0 5%; */
+   
 }
+
 
 .logo{
     width: 180px;
@@ -150,18 +151,12 @@ nav{
 
 nav ul{
     list-style: none;
-    /* width: 100%;
-    text-align: right;
-    padding-right:60px ; */
     display: flex;
 
 }
 
 nav ul li{
     padding: 10px 30px;
-    /* display: inline-block;
-    margin: 10px 20px ;
-    */
     position: relative;
 }
 
@@ -172,10 +167,7 @@ nav ul li a {
    transition: all 0.3s;
 }
 
- /* nav ul li a:hover{
-  
-    
-}   */
+
 
 .dropdown_menu {
     display: none;
@@ -220,6 +212,93 @@ nav .fas{
     top: 0;
     left: 150px;
     background-color: var(--primery-color);
+}
+
+/* responsive for small devices  */
+.toggle {
+    font-size: 30px;
+    display: none;
+}
+
+.menu-head{
+    color: #07174b;
+
+}
+
+@media screen and (max-width:810px){
+    nav {
+        display: block;
+        position: relative;
+        padding: 15px 20px;
+    }
+
+    .menu {
+        margin-top: 15px;
+        display: none;
+    }
+
+    .menu.active, .toggle{
+
+        display: block;
+    }
+
+    .toggle{
+        position: absolute;
+        top: 66px;
+        right: 20px;
+    }
+
+     nav ul {
+        flex-direction: column;
+        align-items: flex-start;
+        text-align: left;
+        width: 100%;
+        
+    } 
+
+     nav ul li {
+        padding: 10px;
+        width: 100%;
+        position: relative; /* Ensure relative positioning for stacking context */
+     }  
+
+    nav ul li:hover .dropdown_menu {
+        display: block;
+        position: absolute;
+        top: 100%; /* Position the dropdowns below their parent list item */
+        left: 0;
+        width: 50%; /* Make dropdowns take full width */
+        z-index: 1; /* Set a higher z-index to appear above other content */
+    }
+    nav ul li:hover .dropdown_menu-1{
+        position: absolute;
+        top: 100%; 
+        left: 0;
+        width: 50%; 
+        z-index: 1; 
+        
+        
+       
+
+    }
+
+    nav ul li:hover .dropdown_menu ul,
+    nav ul li:hover .dropdown_menu-1 ul {
+        display: flex;
+        flex-direction: column;
+        margin: 10px 0;
+    }
+
+    nav ul li:hover .dropdown_menu ul li,
+    nav ul li:hover .dropdown_menu-1 ul li {
+        width: 100%;
+        padding: 10px;
+        
+       
+    }
+
+
+
 }
 
 
@@ -481,7 +560,7 @@ nav .fas{
 
     }
 
-    .header-btns{
+    /* .header-btns{
         font-size: 18px;
         margin-bottom: 20px;
         padding: 8px 16px;
@@ -489,12 +568,8 @@ nav .fas{
        
         display: inline-block;
        position: right;
-
-       
-   
-
         
-    }
+    } */
 
 }
 @keyframes fadeInUp{
@@ -522,23 +597,6 @@ nav .fas{
 }
 
 
- /* footer responsive */
-
-
- /* @media(max-width:700px){
-    .footer-col{
-        width:50% ;
-        margin-bottom: 30px;
-    }
-}
-
-
-@media(max-width:600px){
-    .footer-col{
-        width:100% ;
-        margin-bottom: 30px;
-    }
-}  */
 
 @media only screen and (max-width: 767px) {
     .footer {

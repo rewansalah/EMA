@@ -20,9 +20,19 @@
 
             <!-- header -->
             
+            
             <nav class="header-btns">
-                 <img src="images/EMA-Logo.png" class="logo">
-                <ul>
+                <div class="logo">
+                    <img src="images/EMA-Logo.png" class="logo">
+
+                </div>
+                 
+                 <div class="toggle"> 
+                    <a class="menu-head" href="#"> <i class="fa-solid fa-bars"></i> </a>
+    
+                </div>
+                
+                <ul class="menu">
                    <li><a href="/index.html"> Home </a></li>
                    <li><a href="/categories.html"> Our clients </a></li>
 
@@ -30,7 +40,7 @@
                     <a href="#"> News <i class="fas fa-caret-down"></i> </a>
                     <div class="dropdown_menu">
                         <ul>
-                            <!-- <li><a href="#">Up-to-date </a></li> -->
+                            
                             <li><a href="department.html"> Our department </a></li>
 
                             <li><a href="#">Digital marketing <i class="fas fa-caret-right"></i></a>
@@ -52,7 +62,7 @@
 
                    <li><a target="_blank" href="/files/E.M.A portfolio.pdf"> Portfolio </a></li>
                    <li><a href="/Contactus.html">Contact us</a></li>
-                   <!-- <li><a href="/our-team.html">Team</a></li> -->
+                  
 
                 </ul>
 
@@ -315,6 +325,30 @@
         </footer>
 
         <script src="script.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"> </script>
+        <script>
+            $(function(){
+
+                $(".toggle").on("click", function(){
+
+                    if($(".menu").hasClass("active")){
+
+                        $(".menu").removeClass("active");
+                        $(this).find("a").html("<i class='fa-solid fa-bars'></i> ");
+
+
+                    }else{
+
+                        $(".menu").addClass("active");
+                        $(this).find("a").html("<i class='fa-solid fa-xmark'></i>");
+
+                    }
+
+                });
+
+
+            });
+        </script>
 
 
     </body>
