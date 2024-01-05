@@ -45,7 +45,8 @@
 .hero-content h2{
    font-size: 38px;
    margin-bottom: 20px;
-   color: #ffffffc4 ;
+   /* color: #ffffffc4 ; */
+   color: #040d2d;
 }
 
 .hero-content p ul li{
