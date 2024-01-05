@@ -282,11 +282,19 @@ nav .fas{
 
     }
 
-    nav ul li:hover .dropdown_menu ul,
-    nav ul li:hover .dropdown_menu-1 ul {
+    nav ul li:hover .dropdown_menu ul {
         display: flex;
         flex-direction: column;
         margin: 10px 0;
+    }
+
+    
+    nav ul li:hover .dropdown_menu-1 ul {
+
+        display: flex;
+        flex-direction: column;
+        margin: 10px 10px;
+
     }
 
     nav ul li:hover .dropdown_menu ul li,
